@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', Courier, monospace;
+  text-decoration: none;
+
+}
+
+body,
+html {
+  background-color: rgb(144, 169, 85, 0.5);
+  overflow-x: hidden;
+
+
+}
+/*Gap olhar depois */
+header {
+  width: 100vw;
+  height: 50px;
+  background-color: #132A13;
+
+}
+
+  
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  /*  margin: 25px 50px 75px 100px;
+      a margem superior é de 25px
+      a margem direita é 50px
+      a  margem inferior é de 75px
+      margem esquerda é 100px
+  */
+  margin: 0 40px 8px 40px;
+}
+
+.container img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-top: 7px;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+
+}
+
+.usuario a {
+  margin-left: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 15px;
+  color: #ECF39E;
+  font-family: 'Montserrat', Courier, monospace;
+}
+
+
+.banner {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-position: center;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../img/banner.png");
+
+}
+
+.text-banner {
+  position: absolute;
+
+  font-size: 80px;
+  font-weight: bold;
+  color: #ECF39E
+}
+
+.letreiro {
+  width: 100vw;
+  height: 60px;
+  background-color: #90A955;
+
+}
+
+.jogos {
+  display: flex;
+  width: 100vw;
+
+  margin-bottom: 30px;
+
+
+}
+
+.outros-jogos {
+  width: 280px;
+  height: 710px;
+  background-color: #4F772D;
+
+  margin-top: 30px;
+  margin-left: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 15px 0px #00000040;
+
+
+
+
+}
+
+.titulo-jogo {
+  padding: 36px;
+  color: #ECF39E;
+  font-weight: bold;
+}
+
+.proximos-jogos {
+  
+  width: 260px;
+  height: 75px;
+  background-color: #90A955;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 15px 0px #00000040;
+
+}
+.info-proximos-jogos{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8px;
+
+}
+.time-proximos{
+  width: 43px;
+  height: 43px;
+  
+}
+.time-nome{
+  font-size: 14px;
+  font-weight: bold;
+  color: #ECF39E;
+}
+.local{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.jogos-prin {
+  width: 940px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 50px;
+
+
+}
+
+.noticias {
+  width: 900px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #90A955;
+  margin-bottom: 20px;
+
+
+
+}
+
+.jogos-principais {
+  width: 900px;
+  height: 740px;
+  background-color: #90A955;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 15px 0px #00000040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.placar {
+  width: 200px;
+  height: 150px;
+  background-color: #4F772D;
+  border-radius: 10px;
+  display: flex;
+
+
+
+}
+.info-jogo{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.horario{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.info-relogio{
+  display: flex;
+  margin-left: 55px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  
+}
+.relogio{
+  width: 24px;
+  height: 24px;
+  
+ 
+}
+.horario-jogo{
+  font-size: 17px;
+  color: #ECF39E;
+  margin-left: 5px;
+
+}
+.info-coracao{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.coracao{
+  width: 9px;
+  height: 9px;
+ 
+
+}
+.num-coracao{
+  color: #ECF39E;
+  font-size: 8px;
+}
+.info-partida{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.time{
+  width: 70px;
+  height: 70px; 
+}
+
+
+.vs{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.info-detalhes{
+  display: flex;
+ margin-left: 30px;
+ margin-top: 15px;
+ justify-content: center;
+ align-items: center;
+
+}
+.info-detalhes  p{
+  color: #ECF39E;
+  font-size: 17px;
+}
+.info-detalhes img{
+  width: 24px;
+  height: 24px;
+}
+
+
+
+
+
+
+
+.footer {
+  width: 100vw;
+  height: 140px;
+  background-color: #132A13;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Montserrat', Courier, monospace;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #90A955;
+}
+
+
+
+/*Scroll*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #132A13;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ECF39E;
+}

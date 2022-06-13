@@ -1,0 +1,16 @@
+body{
+ 
+  background-color: #90A955;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.fundo img{
+width: 100vw;
+height: 100vh; 
+
+}
+
