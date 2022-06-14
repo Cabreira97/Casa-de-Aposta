@@ -1,6 +1,8 @@
 body{
  
   background-color: #90A955;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .container{
   display: flex;
