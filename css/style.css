@@ -112,6 +112,9 @@ header {
 .jogos {
   display: flex;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   margin-bottom: 30px;
 
@@ -357,4 +360,5 @@ header {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ECF39E;
+
 }
